@@ -1,4 +1,4 @@
-# Steps to add Tailwind in MVC 7 projects:
+# Steps to add Tailwind in MVC ASP.NET 7 projects:
 ## Step 0:
 Create the project (Visual Studio in the example)
 
@@ -63,7 +63,7 @@ Include the path to the CSS file in the _Layout.cshtml file (Or others views you
 ```
 <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 ```
-## Final:
+## Final Step:
 You are ready to use Tailwind in your project. Here's a small code snippet to try out:
 ```
 <div class="bg-red-500 w-20 h-20"></div>
